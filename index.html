@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div>
+        <img src="images/QuizL.png" alt="" class="quizBEG-flex">
+        <img src="images/QuizR.png" alt="" class="quizBEG-flex">
+        <img src="images/QuizL.png" alt="" class="quizBEG-flex">
+        <img src="images/QuizR.png" alt="" class="quizBEG-flex">
+        <img src="images/QuizL.png" alt="" class="quizBEG-flex">
+        <img src="images/QuizR.png" alt="" class="quizBEG-flex">
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 1: where is the starting place for pirates?</h1>
+        <img src="images/map1.jpg" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">jungle</button>
+            <button class="answer" onclick="incorrect(this)">marine starter</button>
+            <button class="answer" onclick="correct(this)">pirate starter</button>
+            <button class="answer" onclick="incorrect(this)">foutain city</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 2: how much dose killo fruit cost with in-game money?</h1>
+        <img src="https://th.bing.com/th/id/OIP.xVXXSu-LWptFkSjJhHP2DgAAAA?w=164&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">1,000</button>
+            <button class="answer" onclick="incorrect(this)">70,000</button>
+            <button class="answer" onclick="incorrect(this)">9,000</button>
+            <button class="answer" onclick="correct(this)">5,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 3: what level do you atleast have to be to get to 2nd sea?</h1>
+        <img src="images/2ndSea.jpg" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">100</button>
+            <button class="answer" onclick="correct(this)">700</button>
+            <button class="answer" onclick="incorrect(this)">600</button>
+            <button class="answer" onclick="incorrect(this)">1,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 4: how much dose light fruit cost with in-game money?</h1>
+        <img src="https://th.bing.com/th/id/OIP.xVXXSu-LWptFkSjJhHP2DgAAAA?w=164&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="correct(this)">650,000</button>
+            <button class="answer" onclick="incorrect(this)">700,000</button>
+            <button class="answer" onclick="incorrect(this)">1,000,000</button>
+            <button class="answer" onclick="incorrect(this)">830,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 5: how much in-game money dose electric fighting style cost?</h1>
+        <img src="images/madGuy.jpg" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">650,000</button>
+            <button class="answer" onclick="correct(this)">500,000</button>
+            <button class="answer" onclick="incorrect(this)">700,000</button>
+            <button class="answer" onclick="incorrect(this)">400,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 6: how many fragments is it to awaken the Z ability on quake fruit?</h1>
+        <img src="images/frags.jpg" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="correct(this)">1,000</button>
+            <button class="answer" onclick="incorrect(this)">9,000</button>
+            <button class="answer" onclick="incorrect(this)">8,000</button>
+            <button class="answer" onclick="incorrect(this)">900</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 7: where is the blox fruit gacha in 1st sea?</h1>
+        <img src="images/fruitguy.webp" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="correct(this)">jungle</button>
+            <button class="answer" onclick="incorrect(this)">sky lands</button>
+            <button class="answer" onclick="incorrect(this)">desert</button>
+            <button class="answer" onclick="incorrect(this)">marine fortress</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 8: where is the blox fruit dealer in 2nd sea?</h1>
+        <img src="images/dealerquy.jpg" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="correct(this)">dock of rose kingdom</button>
+            <button class="answer" onclick="incorrect(this)">cafe</button>
+            <button class="answer" onclick="incorrect(this)">factory</button>
+            <button class="answer" onclick="incorrect(this)">colosseum</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 9: how much dose buddha fruit cost with in-game money?</h1>
+        <img src="https://th.bing.com/th/id/OIP.xVXXSu-LWptFkSjJhHP2DgAAAA?w=164&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">400,000</button>
+            <button class="answer" onclick="incorrect(this)">1,000,000</button>
+            <button class="answer" onclick="correct(this)">1,200,000</button>
+            <button class="answer" onclick="incorrect(this)">2,000,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 10: how much dose venom fruit cost with in-game money?</h1>
+        <img src="https://th.bing.com/th/id/OIP.xVXXSu-LWptFkSjJhHP2DgAAAA?w=164&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">1,000,000</button>
+            <button class="answer" onclick="incorrect(this)">3,700,000</button>
+            <button class="answer" onclick="incorrect(this)">2,500,000</button>
+            <button class="answer" onclick="correct(this)">3,000,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 11: how much mastery do you need to get reflection kick on light fruit?</h1>
+        <img src="https://th.bing.com/th/id/OIP.MI6Ddj8njaF2AG612wcPRAAAAA?w=138&h=150&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">110</button>
+            <button class="answer" onclick="incorrect(this)">130</button>
+            <button class="answer" onclick="incorrect(this)">65</button>
+            <button class="answer" onclick="correct(this)">80</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 12: what fighting style do you need to transfer aura from arms to legs?</h1>
+        <img src="https://th.bing.com/th/id/OIP.MoSN8INyWGqEFcu6wqXuPQHaEK?w=302&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">electric hands</button>
+            <button class="answer" onclick="correct(this)">dark step</button>
+            <button class="answer" onclick="incorrect(this)">sharkman karate</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 13: what level do you need to get to 3rd sea?</h1>
+        <img src="https://th.bing.com/th/id/OIP.hMyamdAsbC_XEwf0V1kuqQHaDV?w=334&h=157&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">900</button>
+            <button class="answer" onclick="incorrect(this)">1300</button>
+            <button class="answer" onclick="incorrect(this)">1200</button>
+            <button class="answer" onclick="correct(this)">1100</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 14: how much does portal fruit cost?</h1>
+        <img src="https://th.bing.com/th/id/OIP.xVXXSu-LWptFkSjJhHP2DgAAAA?w=164&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="correct(this)">1,900,000</button>
+            <button class="answer" onclick="incorrect(this)">2,000,000</button>
+            <button class="answer" onclick="incorrect(this)">1,500,000</button>
+            <button class="answer" onclick="incorrect(this)">1,700,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 15: how much does dough fruit cost?</h1>
+        <img src="https://th.bing.com/th/id/OIP.xVXXSu-LWptFkSjJhHP2DgAAAA?w=164&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="correct(this)">2,800,000</button>
+            <button class="answer" onclick="incorrect(this)">2,000,000</button>
+            <button class="answer" onclick="incorrect(this)">2,500,000</button>
+            <button class="answer" onclick="incorrect(this)">3,000,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 16: how much does magma fruit cost?</h1>
+        <img src="https://th.bing.com/th/id/OIP.xVXXSu-LWptFkSjJhHP2DgAAAA?w=164&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">800,000</button>
+            <button class="answer" onclick="correct(this)">850,000</button>
+            <button class="answer" onclick="incorrect(this)">750,000</button>
+            <button class="answer" onclick="incorrect(this)">900,000</button>
+        </div>
+    </div>
+    <div class="question-box">
+        <h1 class="question-text">Question 17: how much does dark fruit cost?</h1>
+        <img src="https://th.bing.com/th/id/OIP.xVXXSu-LWptFkSjJhHP2DgAAAA?w=164&h=180&c=7&r=0&o=5&pid=1.7" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer" onclick="incorrect(this)">600,000</button>
+            <button class="answer" onclick="incorrect(this)">550,000</button>
+            <button class="answer" onclick="correct(this)">500,000</button>
+            <button class="answer" onclick="incorrect(this)">450,000</button>
+        </div>
+    </div>
+    <div class="button-box">
+            <button class="submit"  onclick="calculateScore(this)">Submit</button>
+    </div>
+
+</body>
+</html>

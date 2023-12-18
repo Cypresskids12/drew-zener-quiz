@@ -1,0 +1,42 @@
+Topic: roblox game call Blox Fruits
+
+Question 1: where is the starting place for pirates?
+jungle | marine starter | pirate starter (correct) | foutain city
+
+Question 2: how much dose killo fruit cost with in-game money?
+1,000 | 70,000 | 9,000 | 5,000 (correct)
+
+Question 3: what level do you atleast have to be to get to 2nd sea?
+100 | 700 (correct) | 600 | 1,000
+
+Question 4: how much dose light fruit cost with in-game money?
+650,000 (correct) | 700,000 | 1,000,000 | 830,000
+
+Question 5: how much in-game money dose electric fighting style cost?
+650,000 | 500,000 (correct) | 700,000 | 400,000
+
+Question 6: how many fragments is it to awaken the Z ability on quake fruit?
+1,000 (correct) | 9,000 | 8,000 | 900
+
+Question 7: where is the blox fruit gacha in 1st sea?
+jungle (correct) | sky lands | desert | marine fortress
+
+Question 8: where is the blox fruit dealer in 2nd sea?
+dock of rose kingdom (correct) | cafe | factory | colosseum
+
+Question 9: how much dose buddha fruit cost with in-game money?
+400,000 | 1,000,000 | 1,200,000 (correct) | 2,000,000
+
+Question 10: how much dose venom fruit cost with in-game money?
+1,000,000 | 3,700,000 | 2,500,000 | 3,000,000 (correct)
+
+<div class="question-box">
+        <h1 class="question-text"></h1>
+        <img src="" alt="" class="question-IMG">
+        <div class="answers">
+            <button class="answer"></button>
+            <button class="answer"></button>
+            <button class="answer"></button>
+            <button class="answer"></button>
+        </div>
+    </div>
